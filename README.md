@@ -26,6 +26,7 @@ Only ONE fault occurs in each flight and occurs before takeoff. The degree of th
 The faulty component is written on the name of the corresponding TXT file.
 
 ==Data Index==
+
 The Data in the TXT file are arranged in columns in the following order:
 Run Time
 Low Spool Speed 1
@@ -58,12 +59,14 @@ Compressor Variable Vane Angle
 where, XX 1 is the measured value of the sensor, XX 2 is the output value of the airborne model, and other parameters without 1 or 2 are the measured value of the sensors
 
 ==Detailed Information==
+
 For more details about the simulation, see
 Uncertainties in Gas-path Diagnosis of Gas Turbines: Representation and Impact Analysis (As of Dec. 21, 2020,  )
 Your comments and citation are welcome!
 
 
 ==内容说明==
+
 数据包含两个同型号的发动机个体，个体间存在制造引起的性能差异
 
 Decay_EngineB为发生性能衰退后的EngineB，衰退程度表现为相同输入条件下，涡轮后温度上升20℃，接近到期返厂大修时的一般衰退程度
@@ -119,6 +122,7 @@ txt中的数据按列顺序依次为
 其中，xx1为传感器测量值，xx2为机载模型的输出值，其余不含1或2的为传感器测量值
 
 ==详细信息==
+
 数据生成及不确定性模拟方法详见论文：
 Uncertainties in Gas-path Diagnosis of Gas Turbines: Representation and Impact Analysis（2020年12月22日，在投）
 欢迎广大学者引用。
